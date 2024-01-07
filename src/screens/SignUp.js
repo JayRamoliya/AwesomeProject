@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { View, Text, Button, StyleSheet, FlatList } from 'react-native';
 import axios from 'axios';
 
-const JokeListScreen = ({ navigation }) => {
+const SignUp = ({ navigation }) => {
   const [jokes, setJokes] = useState([]);
 
   useEffect(() => {
@@ -57,4 +57,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default JokeListScreen;
+export default SignUp;

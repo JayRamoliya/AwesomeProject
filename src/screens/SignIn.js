@@ -1,8 +1,8 @@
-// JokeDetailScreen.js
+
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-const JokeDetailScreen = ({ route }) => {
+const SignIn = ({ route }) => {
   const { joke } = route.params;
 
   return (
@@ -27,4 +27,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default JokeDetailScreen;
+export default SignIn;
