@@ -1,23 +1,24 @@
-// import { StatusBar } from 'expo-status-bar';
-// import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, Text, View } from 'react-native';
 
-// export default function App() {
-//   return (
-//     <View style={styles.container}>
-//       <Text>jay</Text>
-//       <StatusBar style="auto" />
-//     </View>
-//   );
-// }
+export default function App() {
+  return (
+    <View style={styles.container}>
+      <Text>jay</Text>
+      <h1>jay ramoliya</h1>
+      <StatusBar style="auto" />
+    </View>
+  );
+}
 
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     backgroundColor: '#fff',
-//     alignItems: 'center',
-//     justifyContent: 'center',
-//   },
-// });
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+});
 
 // import React, { useState } from 'react';
 // import { View, Text, TextInput, Button, StyleSheet } from 'react-native';
@@ -134,12 +135,12 @@
 
 
 // App.js
-import React from 'react';
-import AppNavigator from './src/navigation/AppNavigator';
+// import React from 'react';
+// import AppNavigator from './src/navigation/AppNavigator';
 
-const App = () => {
-  return <AppNavigator />;
-};
+// const App = () => {
+//   return <AppNavigator />;
+// };
 
-export default App;
+// export default App;
 
